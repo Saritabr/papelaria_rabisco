@@ -1,0 +1,63 @@
+/* components/Header.module.css */
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #081F25;
+    color: #83cfbe;
+    width: 100vw;
+    padding: 1em 2em;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20vw;
+}
+
+.nav a{
+    color: #F57104;
+    text-decoration: none;
+    margin-right: 1 rem;
+    
+}
+
+.nav a:hover{
+    text-decoration: underline;
+}
+
+#menu{
+  
+    position: relative;
+    text-align: center;
+    margin: 100px;
+}
+    
+#menu-line{
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 25px;
+    width: 0;
+    height: 5px;
+    background-color: #007cff;
+}
+    
+ul{
+    z-index: 100;
+}
+    
+ul Link {
+    display: inline-block;
+    margin-right: 30px;
+}
+    
+ul  a{
+    display: block;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #202020; 
+}
